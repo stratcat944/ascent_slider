@@ -1,0 +1,113 @@
+/*
+Theme Name: Worthy - Free Powerful Theme by HtmlCoder
+Author:HtmlCoder
+Author URI:http://www.htmlcoder.me
+Version:1.0.0
+Created:November 2014
+License: Creative Commons Attribution 3.0 License (https://creativecommons.org/licenses/by/3.0/)
+File Description: Place here your custom CSS styles
+*/
+
+/* ------ Homepage Styles ------ */
+
+/* Layer Slider is inside our Banner div, which is 1045 x 563 */
+
+/*
+.banner {
+    width: 100%;
+}
+*/
+body, html {
+    width: 100%;
+    height: 100%;
+}
+#layerslider {
+    width: 100%;
+    height: 100%;
+}
+
+h4 {color: cornflowerblue;}
+.banner:after {
+    background-color: white;
+}
+
+.about {
+    background-color: whitesmoke;
+}
+
+blockquote {
+    font-size: 16px;
+}
+
+.writings-description {
+    font-size: 22px;
+    text-align: center;
+    font-weight: 100;
+}
+
+.writings-links-home {
+    text-align: center; 
+}
+.writings-links-home > li {
+    display: inline-block;
+    list-style: none;
+    margin: 0px 20px;
+}
+.writings-links-home > li > a {
+    text-decoration: none;
+    color: #55acee;
+}
+.writings-links-home > li > a:hover {
+    color: white;
+}
+
+
+/* ------ Writings Template Styles ------ */
+.writings-content {
+    padding-top: 200px;
+}
+
+
+.writings-cta {
+    text-align: center;
+}
+
+
+.writings-links {
+    text-align: center; 
+}
+.writings-links > li {
+    display: inline-block;
+    list-style: none;
+    margin: 0px 20px;
+}
+.writings-links > li > a {
+    text-decoration: none;
+}
+.writings-links > li > a:hover {
+    color: #55acee;
+}
+
+
+/* Media Queries */
+@media (max-width: 991px) {
+    
+    .writings-img {
+        display: none;
+    }
+    
+    .writings-cta {
+        text-align: left;
+        padding-left: 40px;
+        font-size: 24px;
+    }
+    .writings-links {
+        text-align: left; 
+    }
+    .writings-links > li {
+        display: block;
+        list-style: none;
+        margin: 5px 0px;
+    }
+    
+} /* End Media Queries */
