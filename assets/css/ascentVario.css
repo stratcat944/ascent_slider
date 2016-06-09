@@ -246,7 +246,7 @@ a:hover, a:active { color:#fff; text-decoration: none; }
 /*                   UI - Buttons                       */
 /********************************************************/
 .btn{
-	color:#333;
+	color:#d3d3d3;
 	text-shadow: none;
 	text-decoration: none;
 	-webkit-border-radius: 4px;
