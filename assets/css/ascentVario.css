@@ -45,7 +45,7 @@ p {
 	text-shadow: 2px 2px 3px black;
 }
 
-li {
+h2 > ul > li {
 	font-family: 'Roboto Condensed', Helvetica, Arial, sans-serif;
 	font-size: 1vw;
 	font-weight: 100;
